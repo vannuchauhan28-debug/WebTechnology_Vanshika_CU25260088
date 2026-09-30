@@ -1,0 +1,8 @@
+<html>
+<body>
+<h2>My College</h2>
+<img src="logo.jpg" width="150" height="150" alt="College Logo">
+<img src="course.jpg" width="250" height="150" alt="Course Image">
+<img src="nature.jpg" width="250" height="150" alt="Nature Image">
+</body>
+</html>
