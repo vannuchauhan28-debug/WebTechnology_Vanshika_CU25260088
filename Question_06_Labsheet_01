@@ -1,0 +1,9 @@
+<html>
+<body>
+<table border="1">
+<tr><th>Student ID</th><th>Name</th><th>Course</th><th>Semester</th><th>Marks</th></tr>
+<tr><td>101</td><td>Vanshika</td><td>BCA</td><td>5</td><td>85</td></tr>
+<tr><td>102</td><td>Prince</td><td>BCA</td><td>5</td><td>88</td></tr>
+</table>
+</body>
+</html>
