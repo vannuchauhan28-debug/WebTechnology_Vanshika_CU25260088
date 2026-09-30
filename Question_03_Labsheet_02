@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Admission Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+        .box {
+            width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            width: auto;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<!-- Login Form -->
+<div class="box">
+    <h2>Login Form</h2>
+    <form>
+        Username:
+        <input type="text" placeholder="Enter Username">
+        Password:
+        <input type="password" placeholder="Enter Password">
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+<!-- Admission Form -->
+<div class="box">
+    <h2>College Admission Form</h2>
+    <form>
+        Name:
+        <input type="text" placeholder="Enter Name">
+        Email:
+        <input type="email" placeholder="Enter Email">
+        Phone:
+        <input type="text" placeholder="Enter Phone Number">
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+        Course:
+        <select>
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+        </select>
+        Address:
+        <textarea rows="4" placeholder="Enter Address"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+</body>
+</html>
