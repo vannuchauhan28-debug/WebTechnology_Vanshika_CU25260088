@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        header {
+            background: lightblue;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background: lightgray;
+            width: 200px;
+            height: 400px;
+            float: left;
+            padding: 15px;
+        }
+        nav a {
+            display: block;
+            padding: 12px;
+            color: black;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: white;
+        }
+        #content {
+            margin-left: 230px;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        function show(page) {
+            document.getElementById("content").innerHTML = page;
+        }
+    </script>
+</head>
+<body>
+<header>
+    <h1>ABC College</h1>
+    <p>Welcome to Our College</p>
+</header>
+<nav>
+    <h3>Navigation</h3>
+    <a href="#" onclick="show('<h2>Home</h2><p>Welcome to ABC College.</p>')">
+        Home
+    </a>
+    <a href="#" onclick="show('<h2>About Us</h2><p>ABC College provides quality education to students.</p>')">
+        About Us
+    </a>
+    <a href="#" onclick="show('<h2>Courses</h2><ul><li>BCA</li><li>BBA</li><li>B.Tech</li></ul>')">
+        Courses
+    </a>
+    <a href="#" onclick="show('<h2>Contact Us</h2><p>Email: abccollege@gmail.com</p><p>Phone: 9876543210</p>')">
+        Contact
+    </a>
+</nav>
+<div id="content">
+    <h2>Home</h2>
+    <p>Welcome to ABC College Website.</p>
+</div>
+</body>
+</html>
