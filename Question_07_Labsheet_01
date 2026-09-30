@@ -1,0 +1,13 @@
+<html>
+<body>
+<table border="1">
+<tr><th colspan="6">College Timetable</th></tr>
+<tr><th>Day</th><th>9-10</th><th>10-11</th><th>11-12</th><th>12-1</th><th>1-2</th></tr>
+<tr><td>Mon</td><td>Java</td><td>Web</td><td rowspan="2">Maths</td><td rowspan="5">Lunch</td><td>Python</td></tr>
+<tr><td>Tue</td><td>Python</td><td>Java</td><td>Web</td></tr>
+<tr><td>Wed</td><td>Maths</td><td>Python</td><td>Java</td><td>Web</td></tr>
+<tr><td>Thu</td><td>Web</td><td>Maths</td><td>Python</td><td>Java</td></tr>
+<tr><td>Fri</td><td>Java</td><td>Web</td><td>Maths</td><td>Python</td></tr>
+</table>
+</body>
+</html>
