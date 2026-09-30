@@ -1,0 +1,28 @@
+<html>
+<body>
+<h1>COER University</h1>
+<p>Welcome to our <b>College Admission Portal</b>.</p>
+<img src="college.jpg" width="300" height="150" alt="College">
+<h2>Courses Offered</h2>
+<ul>
+<li>BCA</li><li>BBA</li><li>B.Com</li>
+</ul>
+<h2>Admission Details</h2>
+<table border="1">
+<tr><th>Course</th><th>Duration</th><th>Eligibility</th></tr>
+<tr><td>BCA</td><td>3 Years</td><td>12th Pass</td></tr>
+<tr><td>BBA</td><td>3 Years</td><td>12th Pass</td></tr>
+</table>
+<h2>Registration Form</h2>
+<form>
+Name: <input type="text"><br>
+Email: <input type="email"><br>
+Course: <select><option>BCA</option><option>BBA</option></select><br>
+Gender: <input type="radio" name="g">Male
+<input type="radio" name="g">Female<br>
+Address: <textarea></textarea><br>
+<input type="submit" value="Register">
+<input type="reset">
+</form>
+</body>
+</html>
